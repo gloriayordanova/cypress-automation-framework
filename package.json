@@ -15,6 +15,6 @@
     "ts-loader": "^9.5.2"
   },
   "cypress-cucumber-preprocessor": {
-    "stepDefinitions": "cypress/support/step_Definitions/**/*.js"
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
   }
 }

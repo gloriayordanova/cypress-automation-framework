@@ -22,7 +22,7 @@
     "editor.formatOnSave": true,
     "workbench.iconTheme": "material-icon-theme",
     "cucumberautocomplete.steps": [
-        "cypress/support/step_definitions/*.js"
+        "cypress/support/step_definitions/**/*.js"
     ],
     
     "cucumberautocomplete.customParameters": [

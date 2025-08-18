@@ -1,1 +1,0 @@
-const { Given, When, Then } = require('cypress-cucumber-preprocessor/steps');
