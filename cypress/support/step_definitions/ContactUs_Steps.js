@@ -45,13 +45,13 @@ When('I type a specific word {string} and number {int} within the comment input 
     cy.get('textarea[name="message"]').type(word + " " + number)
 })
 
-When('And I type a first name {word} and a last name {string}', (firstName, lastName) => {
+When('I type a first name {word} and a last name {string}', (firstName, lastName) => {
     cy.get('[name="first_name"]').type(firstName);
     cy.get('[name="last_name"]').type(lastName)
 })
 
 When('I type a {string} and a comment {string}', (email, comment) => {
-    cy.get('[name="first_name"]').type(email);
+    cy.get('[name="email"]').type(email);
     cy.get('textarea[name="message"]').type(comment);
 })
 
