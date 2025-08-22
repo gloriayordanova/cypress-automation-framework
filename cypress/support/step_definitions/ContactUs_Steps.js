@@ -56,5 +56,5 @@ When('I type a {string} and a comment {string}', (email, comment) => {
 })
 
 Then('I should be presented with header text {string}', (message) => {
-    
+    cy.xpath("//h1 | //body").contains(message);
 })
