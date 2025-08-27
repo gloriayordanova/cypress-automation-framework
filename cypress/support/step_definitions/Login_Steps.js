@@ -1,9 +1,13 @@
 /// <reference types="cypress" />
-import { Then, When } from "@badeball/cypress-cucumber-preprocessor";
+import { Given, Then, When } from "@badeball/cypress-cucumber-preprocessor";
 import Login_PO from "../page_objects/Login_PO";
 
 const loginPage = new Login_PO; 
 let stub;
+
+Given('I navigate to the webdriveruniversity login page', () => {
+    loginPage.navigateTo_Login_Page();
+}) 
 
 When(`I type a username {}`, (username) => {
     //cy.get('#text').type(username);

@@ -3,6 +3,10 @@
 import Base_PO from "./Base_PO";
 
 class Login_PO extends Base_PO {
+    navigateTo_Login_Page() {
+        super.navigate("/Login-Portal/index.html")
+    }
+
     type_Username(username) {
         cy.get('#text').type(username);
     }
