@@ -140,6 +140,7 @@ table.tile_info td i {
   display: inline-block;
   margin-right: 8px;
   font-size: 17px;
+  float: left;
   width: 18px;
   line-height: 28px;
   text-align: center;
@@ -355,6 +356,7 @@ table td.chart .total {
   border: 1px solid #abd9ea;
   border-radius: 5px;
   text-align: center;
+  float: right;
   padding: 2px;
   margin-top: 10px;
 }
@@ -876,7 +878,7 @@ body.darkmode .navbar-text {
                                 Passed
                             </p>
                         </td>
-                        <td class="percentage">100.00 %</td>
+                        <td class="percentage">50.00 %</td>
                     </tr>
                     <tr>
                         <td>
@@ -890,6 +892,17 @@ body.darkmode .navbar-text {
                     
                     
                     
+                    
+                    <tr>
+                        <td>
+                            <p data-bs-toggle="tooltip" data-placement="left"
+                               title="Features skipped">
+                                <i class="fa fa-arrow-circle-right skipped-color"></i>
+                                Skipped
+                            </p>
+                        </td>
+                        <td class="percentage">50.00 %</td>
+                    </tr>
                     
 
                 </table>
@@ -941,7 +954,7 @@ body.darkmode .navbar-text {
                                 Passed
                             </p>
                         </td>
-                        <td class="percentage">66.67 %</td>
+                        <td class="percentage">33.33 %</td>
                     </tr>
                     <tr>
                         <td>
@@ -963,7 +976,7 @@ body.darkmode .navbar-text {
                                 Skipped
                             </p>
                         </td>
-                        <td class="percentage">33.33 %</td>
+                        <td class="percentage">66.67 %</td>
                     </tr>
                     
                 </table>
@@ -1035,7 +1048,7 @@ body.darkmode .navbar-text {
                     
                     <tr>
                         <td>
-                            <a href="features/bdf44d5a-4bee-45dc-90b8-16dc2d9fc464-webdriveruniversity---contact-us-page.html">WebDriverUniversity - Contact Us Page</a>
+                            <a href="features/2b6e1767-059f-4362-ac1a-3e703b1875ff-webdriveruniversity---contact-us-page.html">WebDriverUniversity - Contact Us Page</a>
                         </td>
                         <td class="text-center">
                             
@@ -1111,8 +1124,8 @@ body.darkmode .navbar-text {
                             
                             
                             
-                            <i class="fa fa-check-circle passed-color fa-lg" data-bs-toggle="tooltip" data-placement="top" title="Passed">
-                                <span>check-circle passed-color</span>
+                            <i class="fa fa-arrow-circle-right skipped-color fa-lg" data-bs-toggle="tooltip" data-placement="top" title="Skipped">
+                                <span>arrow-circle-right skipped-color</span>
                             </i>
                         </td>
                         
@@ -1149,13 +1162,13 @@ body.darkmode .navbar-text {
                         <td>2025/08/23 21:11:44</td>
                         
                         
-                        <td>00:00:05.770</td>
+                        <td>00:00:00.000</td>
                         
                         <td class="text-right ">6</td>
-                        <td class="text-right ">3</td>
+                        <td class="text-right none">0</td>
                         <td class="text-right none">0</td>
                         
-                        <td class="text-right ">3</td>
+                        <td class="text-right ">6</td>
                         
                         
                         
@@ -1164,7 +1177,7 @@ body.darkmode .navbar-text {
                     
                     <tr>
                         <td>
-                            <a href="features/813565d7-fb6d-410b-857f-8dd3c551421c-webdriveruniversity---login-page.html">webdriveruniversity - Login Page</a>
+                            <a href="features/ed7ebeb0-459d-4d2f-a32d-f2dee6ed6b8f-webdriveruniversity---login-page.html">webdriveruniversity - Login Page</a>
                         </td>
                         <td class="text-center">
                             
@@ -1248,7 +1261,7 @@ body.darkmode .navbar-text {
                         <td>2025/08/23 21:11:44</td>
                         
                         
-                        <td>00:00:03.511</td>
+                        <td>00:00:03.499</td>
                         
                         <td class="text-right ">3</td>
                         <td class="text-right ">3</td>
@@ -1328,10 +1341,10 @@ body.darkmode .navbar-text {
                         ],
                         datasets: [{
                             data: [
-                                2,
+                                1,
                                 0,
                                 0,
-                                0,
+                                1,
                                 0,
                                 0
                             ],
@@ -1367,10 +1380,10 @@ body.darkmode .navbar-text {
                         ],
                         datasets: [{
                             data: [
-                                6,
-                                0,
-                                0,
                                 3,
+                                0,
+                                0,
+                                6,
                                 0,
                                 0
                             ],
